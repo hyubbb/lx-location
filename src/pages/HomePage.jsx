@@ -1,13 +1,14 @@
 import React from "react";
-import Map from "./Map";
+import Map from "../components/Map";
+import { Container } from "../styles/main";
 
 const HomePage = () => {
   return (
-    <div className='App'>
-      <h1>Kakao 지도 예제</h1>
+    <Container>
+      <h1>거리 계산</h1>
 
       <Map />
-    </div>
+    </Container>
   );
 };
 
